@@ -1,0 +1,158 @@
+.members-page-wrap {
+  width: 100%;
+}
+
+.members-board {
+  width: 95%;
+  max-width: 1800px;
+  margin: 28px auto 0;
+  background-color: #1a1a1a;
+  padding: 58px 0 70px;
+}
+
+.members-title {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.members-title h1 {
+  margin: 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+.members-divider {
+  width: 28px;
+  height: 2px;
+  background-color: white;
+  margin: 18px auto 0;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 56px 56px;
+  padding: 0 14px;
+  align-items: stretch;
+
+}
+
+.member-card {
+ background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.member-card img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  background: #ddd;
+}
+
+.member-info {
+  background-color: #3f3d3d;
+  padding: 22px 26px 28px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.member-name {
+  margin: 0 0 22px;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+}
+.member-desc {
+  margin: 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 0.98rem;
+  line-height: 1.95;
+  color: #f2f2f2;
+}
+
+.member-bottom {
+  margin-top: auto;
+}
+
+.member-quote {
+  margin: 0 0 18px 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 0.98rem;
+  line-height: 1.95;
+  color: #f2f2f2;
+  text-align: left;
+}
+
+.member-service {
+  margin: 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.05rem;
+  color: white;
+  text-align: left;
+}
+
+.member-socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 28px;
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+}
+
+.member-socials span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  color: #000;
+  background: transparent;
+  font-weight: 700;
+}
+
+@media (max-width: 1400px) {
+  .members-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .members-board {
+    padding: 44px 0 50px;
+  }
+
+  .members-title h1 {
+    font-size: 3.1rem;
+  }
+
+  .members-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 0 16px;
+  }
+
+  .member-card img {
+    height: 320px;
+  }
+
+  .member-info {
+    min-height: auto;
+  }
+
+  .member-name {
+    font-size: 1.5rem;
+  }
+
+  .member-desc {
+    font-size: 0.95rem;
+  }
+}
