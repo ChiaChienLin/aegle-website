@@ -1,0 +1,257 @@
+.about-page-wrap {
+  width: 95%;
+  max-width: 1800px;
+  margin: 28px auto 0;
+}
+
+.about-text-section {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 120px 20px;
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.about-text-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.about-text-inner h1,
+.about-text-inner h2 {
+  margin: 0 0 10px;
+  font-family: "Noto Serif TC", serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.3px;
+  line-height: 2;
+}
+
+.about-text-inner p {
+  margin: 0 0 20px 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f2f2f2;
+}
+
+.about-top-image {
+  background-color: #7a7a7a;
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.about-top-image img {
+  display: block;
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #000000;
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.about-grid-item:first-child {
+  border-right: 1px solid #7a7a7a;
+}
+
+.about-grid-item img {
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* 規範區塊 */
+.rules-section {
+  padding: 110px 20px;
+}
+
+.about-rules-inner {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-rules-inner h2 {
+  margin: 0 0 52px;
+  text-align: center;
+  font-family: "Noto Serif TC", serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1.5px;
+}
+
+.rules-intro-list,
+.rules-list {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rules-intro-list {
+  margin-bottom: 80px;
+}
+
+.rules-intro-list li,
+.rules-list li {
+  margin-bottom: 5px;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.15;
+  color: #f2f2f2;
+}
+
+.rules-group {
+  margin-top: 65px;
+  text-align: center;
+}
+
+.rules-group h3 {
+  margin: 0 0 30px 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1.5px;
+}
+
+.rules-group h4 {
+  margin: 0 0 28px 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.feedback-block {
+  margin-top: 90px;
+  padding-top: 65px;
+  border-top: 1px solid #7a7a7a;
+  text-align: center;
+}
+
+.feedback-block h3 {
+  margin: 0 0 24px 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1.5px;
+}
+
+.feedback-block p {
+  max-width: 760px;
+  margin: 0 auto 36px;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.1;
+  color: #f2f2f2;
+}
+
+.feedback-btn {
+  display: inline-block;
+  padding: 14px 38px;
+  border: 1px solid #9d9d9d;
+  color: white;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  transition: 0.3s ease;
+}
+
+.feedback-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 900px) {
+  .rules-section {
+    padding: 80px 20px;
+  }
+
+  .about-rules-inner h2 {
+    font-size: 2.9rem;
+  }
+
+  .rules-intro-list li,
+  .rules-list li {
+    font-size: 1.15rem;
+    margin-bottom: 20px;
+    line-height: 2;
+  }
+
+  .rules-group h3 {
+    font-size: 2.9rem;
+  }
+
+  .rules-group h4 {
+    font-size: 1.8rem;
+  }
+
+  .feedback-block h3 {
+    font-size: 2.9rem;
+  }
+
+  .feedback-block p {
+    font-size: 1rem;
+    line-height: 1.95;
+  }
+
+  .feedback-btn {
+    font-size: 1rem;
+    padding: 12px 28px;
+  }
+
+
+
+
+  .logo {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  letter-spacing: 0.3px;
+}
+
+.logo-cn {
+  font-family: "Noto Serif TC", serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.logo-en {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+
+}
