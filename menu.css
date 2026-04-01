@@ -27,10 +27,9 @@
 
 .menu-time {
   margin-top: 12px;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Noto Serif TC", serif;
   font-size: 1.4rem;
-  font-style: italic;
-  color: #d9d9d9;
+  color: #fff;
 }
 
 .menu-category {
